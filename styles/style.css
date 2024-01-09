@@ -1,0 +1,168 @@
+.newparty1,
+.newparty2 {
+  font-family: "Merriweather", serif;
+}
+
+.hny1,
+.hny21,
+.hny22 {
+  font-family: "Inter", sans-serif;
+}
+
+.wtmp1 {
+  font-family: "Merriweather", serif;
+}
+
+.wtmp2 {
+  font-family: "Inter", sans-serif;
+}
+/* newparty styles  */
+.newparty {
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../resources/BannerImage.png");
+  border-radius: 16px;
+
+  width: 1320px;
+  height: 600px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.newparty1 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: -5px;
+}
+
+.newparty2 {
+  color: #fff;
+
+  text-align: center;
+  font-size: 72px;
+  font-weight: bold;
+}
+
+/* happy new year styles  */
+
+.hny {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hny1 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+}
+.hny2 {
+  text-align: center;
+}
+.hny21 {
+  color: #f00;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: -25px;
+}
+
+.hny22 {
+  color: #070211;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.hnyimg {
+  width: 802.9px;
+  height: 500px;
+}
+
+/* Welcome to midnight party styles  */
+
+.wtmp {
+  margin-top: 100px;
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../resources/Vectorrr.png");
+  border-radius: 16px;
+
+  width: 1320px;
+  height: 600px;
+  background-repeat: no-repeat;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wtmp1 {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: 7.04px;
+  margin-left: 100px;
+}
+
+.wtmp2 {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: -40px;
+  margin-left: 100px;
+}
+
+.wtmp3 {
+  margin-top: 40px;
+  margin-left: 100px;
+}
+
+.wtmpbtn {
+}
+
+/* place date time styles  */
+
+.pds {
+  margin-top: 100px;
+
+  width: 1320px;
+  height: 482px;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  border-radius: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pds1 {
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px; /* 175% */
+  text-transform: capitalize;
+}
